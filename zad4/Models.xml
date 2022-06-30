@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GroupModels>
+  <Group>
+    <Name>Małe</Name>
+    <Description>Małe samochody miejskie</Description>
+    <Brand>
+      <Name>Renault</Name>
+      <Country>Francja</Country>
+      <CreationDate>1899</CreationDate>
+      <President>Luca de Meo</President>
+      <Models>
+        <Model id="101">
+          <Name>Clio</Name>
+          <Engine>Benzynowy 0.9l</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Manual</Gear>
+        </Model>
+        <Model id="102">
+          <Name>Zoe</Name>
+          <Engine>Elektryczy</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Automat</Gear>
+        </Model>
+      </Models>
+    </Brand>
+    <Brand>
+      <Name>Suzuki</Name>
+      <Country>Japonia</Country>
+      <CreationDate>1909</CreationDate>
+      <President>Osamu Suzuki</President>
+      <Models>
+        <Model id="201">
+          <Name>Swift</Name>
+          <Engine>Benzynowy 1.2l</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Manual</Gear>
+        </Model>
+        <Model id="202">
+          <Name>Ignis</Name>
+          <Engine>Benzynowy 1.3l</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Manual</Gear>
+        </Model>
+      </Models>
+    </Brand>
+  </Group>
+  <Group>
+    <Name>Rodzinne</Name>
+    <Description>Wszechstronne auta rodzinne</Description>
+    <Brand>
+      <Name>Opel</Name>
+      <Country>Niemcy</Country>
+      <CreationDate>1862</CreationDate>
+      <President>Uwe Hochgeschurtz</President>
+      <Models>
+        <Model id="301">
+          <Name>Insignia</Name>
+          <Engine>Benzynowy 2.0l</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Automat</Gear>
+        </Model>
+        <Model id="302">
+          <Name>Zafira</Name>
+          <Engine>Diesel 2.0l</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Manual</Gear>
+        </Model>
+      </Models>
+    </Brand>
+    <Brand>
+      <Name>Volkswagen</Name>
+      <Country>Niemcy</Country>
+      <CreationDate>1937</CreationDate>
+      <President>Herbert Diess</President>
+      <Models>
+        <Model id="401">
+          <Name>Passat</Name>
+          <Engine>Diesel 2.0l</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Automat</Gear>
+        </Model>
+        <Model id="402">
+          <Name>Sharan</Name>
+          <Engine>Benzynowy 1.6l</Engine>
+          <Drive>Na przód</Drive>
+          <Gear>Manual</Gear>
+        </Model>
+      </Models>
+    </Brand>
+  </Group>
+</GroupModels>

@@ -1,0 +1,67 @@
+﻿<Window x:Class="zad4.ModelDetail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad4"
+        mc:Ignorable="d"
+        Title="ModelDetail"
+        Height="550"
+        Width="350"
+        FontSize="18"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0">ID</Label>
+        <TextBlock
+            Grid.ColumnSpan="2"
+            Grid.Column="1"
+            Grid.Row="0"
+            Text="{Binding XPath=@id}"
+            />
+
+        <Label Grid.Row="1">Model</Label>
+        <TextBlock
+            Grid.ColumnSpan="2"
+            Grid.Column="1"
+            Grid.Row="1"
+            Text="{Binding XPath=Name}"
+            />
+
+        <Label Grid.Row="2">Silnik</Label>
+        <TextBlock
+            Grid.ColumnSpan="2"
+            Grid.Column="1"
+            Grid.Row="2"
+            Text="{Binding XPath=Engine}"
+            />
+
+        <Label Grid.Row="3">Napęd</Label>
+        <TextBlock
+            Grid.ColumnSpan="2"
+            Grid.Column="1"
+            Grid.Row="3"
+            Text="{Binding XPath=Drive}"
+            />
+
+        <Label Grid.Row="4">Skrzynia biegów</Label>
+        <TextBlock
+            Grid.ColumnSpan="2"
+            Grid.Column="1"
+            Grid.Row="4"
+            Text="{Binding XPath=Gear}"
+            />
+    </Grid>
+</Window>
